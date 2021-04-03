@@ -88,4 +88,3 @@ B=[2,1,'d']
 B
 A.extend(B) # Can be use A+B
 A
-
