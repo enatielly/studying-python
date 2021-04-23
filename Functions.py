@@ -273,3 +273,10 @@ def addItems2(list):
 myList = ['One','Two']
 addItems2(myList)
 myList
+
+#What is the output of the following lines of code?
+r=1
+def do(p):
+    r=100
+    return(p+r)
+print(do(1))
