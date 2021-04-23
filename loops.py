@@ -84,3 +84,25 @@ while(i < len(PlayListRatings) and Rating >= 6):
 
 #Write a while loop to copy the strings 'orange' of the list squares to the list new_squares. Stop and exit the loop if the value on the list is not 'orange':
 
+squares = ['orange', 'orange', 'purple', 'blue ', 'orange']
+new_squares = []
+i = 0
+while(i < len(squares) and squares[i] == 'orange'):
+    new_squares.append(squares[i])
+    i = i + 1
+print (new_squares)
+
+#What is output of the following few lines of code?
+x=5
+while(x!=2):
+    print(x)
+    x=x-1
+
+#What ir the output of the following few lines of code?
+for i,x in enumerate(['A','B','C']):
+    print(i+1,x)
+
+#  What is the output of the following?
+for i in range(1,5):
+    if(i==2):
+        print(i)
