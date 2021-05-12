@@ -117,5 +117,3 @@ FatYellowRectangle.color
 
 # Use the drawRectangle method to draw the shape
 FatYellowRectangle.drawRectangle()
-
-# %%
