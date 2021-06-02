@@ -1,3 +1,4 @@
+#%%
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
@@ -55,3 +56,5 @@ fig = go.Figure(data=[go.Candlestick(x=data['Date'],
 fig.update_layout(xaxis_rangeslider_visible=False)
 
 fig.show()
+
+# %%
