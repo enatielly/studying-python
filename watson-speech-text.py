@@ -3,8 +3,8 @@ import json
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
 #API informations available on IBM Clound Services
-url_s2t = "https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/41136b7b-778c-4905-86e7-02a90bb13fe8"
-iam_apikey_s2t = "o8URZAFvfEYjYIG1pe5XpuJ379DkhaV9uu298IADr7Fy"
+url_s2t = "ibm service url"
+iam_apikey_s2t = "ibm service key"
 
 authenticator = IAMAuthenticator(iam_apikey_s2t)
 s2t = SpeechToTextV1(authenticator=authenticator)
@@ -37,8 +37,8 @@ from ibm_watson import LanguageTranslatorV3
 
 
 #API informations available on IBM Clound Services
-url_lt='https://api.us-south.language-translator.watson.cloud.ibm.com/instances/5b10b0bf-d273-4ea9-8615-e73a352be4aa'
-apikey_lt='MtVVJVAW8kn8SEvifm6AE0gc5HLKz6iLiXgAiIbJWOvL'
+url_lt= "ibm service url"
+apikey_lt="ibm service key"
 
 #current version of Language Translator, 2018-05-01
 version_lt='2018-05-01'
