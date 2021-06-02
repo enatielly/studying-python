@@ -2,7 +2,6 @@ from ibm_watson import SpeechToTextV1
 import json
 from ibm_cloud_sdk_core.authenticators import IAMAuthenticator
 
-
 #API informations available on IBM Clound Services
 url_s2t = "https://api.eu-gb.speech-to-text.watson.cloud.ibm.com/instances/41136b7b-778c-4905-86e7-02a90bb13fe8"
 iam_apikey_s2t = "o8URZAFvfEYjYIG1pe5XpuJ379DkhaV9uu298IADr7Fy"
@@ -71,7 +70,4 @@ translation
 #Obtain the actual translation as a string as follows:
 brazilian_translation =translation['translations'][0]['translation']
 brazilian_translation
-
-#translate back to English:
-translation_new = language_translator.translate(text=brazilian_translation ,model_id='es-ptbr').get_result()
 
